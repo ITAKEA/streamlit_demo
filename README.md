@@ -21,6 +21,8 @@ x = st.slider('Antal biler')
 ## input
 y = st.text_input('Hvad er din alder?')
 
+## Button
+st.button('Click me')
 ## Selectbox
 s = st.selectbox('Hvad er din alder?', [12, 13, 33, 66])
 
@@ -30,6 +32,10 @@ f'Hello {s}' if s >= 18 else 'nono'
 col1, col2 = st.columns(2)
 col1.button('Click me')
 col2.write('# Hello there')
+
+## Sidebar
+st.sidebar
+st.sidebar.buttun()
 
 ## pages 
 put the in a **pages** folder
