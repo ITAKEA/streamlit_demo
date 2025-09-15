@@ -7,6 +7,7 @@ https://docs.streamlit.io/
 Gennemgang af:
 
 * Install og import af streamlit
+    * pip install streamlit
 * requirements.txt 
 
 ## Text elementer: 
